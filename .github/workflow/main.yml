@@ -4,8 +4,7 @@ on:
       - main
   push:
     branches:
-      - develop
-      - master
+      - main
 name: Build and Release
 jobs:
   build_debug:
